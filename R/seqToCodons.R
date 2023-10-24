@@ -5,7 +5,6 @@
 #'
 #' @return description of function output
 #' @export
-#'
 seqToCodons <- function(theSeq, start = 1){
   theSeq2 <- nchar(theSeq)
   codons <- substring(theSeq,
