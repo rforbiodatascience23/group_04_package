@@ -1,0 +1,35 @@
+Package: BioFlow
+Type: Package
+Title: Replicate the Central dogma of Molecular Biology
+Version: 0.1.0
+Authors@R:
+  c(person(given = "Mathilde W.",
+           family = "Bechgaard",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "mathilde@bechgaard.dk"), 
+    person(given = "Katarzyna Alicja",
+           family = "Mucha",
+           role = "aut",
+           email = "s222846@dtu.dk"), 
+    person(given = "Konrad Kacper",
+           family = "Uscilo",
+           role = "aut",
+           email = "s222845@dtu.dk"), 
+    person(given = "Laila",
+           family = "Laajab",
+           role = "aut",
+           email = "s215023@dtu.dk"), 
+    person(given = "Ksenia",
+           family = "Kirdey",
+           role = "aut",
+           email = "s231488@dtu.dk"))
+Maintainer: Mathilde W. Bechgaard <s194561@dtu.dk>
+Description: This R package contains multiple functions  used to replicate the 
+    central dogma of molecular biology.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
