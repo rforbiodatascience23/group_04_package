@@ -14,17 +14,18 @@ knitr::opts_chunk$set(
 )
 ```
 
-## Library Loading
-
-```{r setup}
-library(BioFlow)
-```
-
 ## Introduction
 
 The current package facilitates the work of bioinformaticians with the help of several functions. It can be used to replicate the central dogma of molecular biology "DNA -\> RNA -\> protein".
 
 The package has dependencies on two libraries: ggplot2 and stringr.
+Github Repository: https://github.com/rforbiodatascience23/group_04_package.git
+
+## Library Loading
+
+```{r setup}
+library(BioFlow)
+```
 
 ## Functions Description
 
