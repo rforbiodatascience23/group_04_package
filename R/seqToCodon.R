@@ -2,7 +2,7 @@
 #'
 #' @param sequence1 sequence1 is the nucleotide sequence provided by the user.
 #' @param start start is the first nucleotide in the sequence.
-#' @return ........doing it later
+#' @return the sequence divided into codons
 #' @export
 seqToCodons <- function(sequence1, start = 1){
   sequence2 <- nchar(sequence1)
