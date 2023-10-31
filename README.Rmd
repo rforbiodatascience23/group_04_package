@@ -22,10 +22,11 @@ The goal of ShinyAppOne is to ...
 
 ## Installation
 
-You can install the development version of ShinyAppOne like so:
+You can install the development version of ShinyAppOne from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("rforbiodatascience23/group_04_shiny")
 ```
 
 ## Example
