@@ -10,7 +10,13 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("ShinyAppOne")
+      h1("ShinyAppOne"),
+      tabsetPanel(
+        tabPanel(title = "panel1",
+                 mod_DNAtoPeptide_ui("DNAtoPeptide_1")),
+        tabPanel(title = "panel2",
+                 mod_PlotRAA_ui("PlotRAA_1"))
+      )
     )
   )
 }
