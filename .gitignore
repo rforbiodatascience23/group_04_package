@@ -1,6 +1,15 @@
 .Rproj.user
 .Rhistory
+<<<<<<< HEAD
 .Rdata
 .httr-oauth
 .DS_Store
 .quarto
+=======
+.RData
+.Ruserdata
+inst/doc
+NAMESPACE
+/Meta/
+/doc/
+>>>>>>> ec0d92749ba8718ba0c40f5f73734360ec1acb66

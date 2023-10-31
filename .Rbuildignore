@@ -1,5 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+<<<<<<< HEAD
 ^data-raw$
 dev_history.R
 ^dev$
@@ -9,3 +10,9 @@ $run_dev.*
 ^README\.Rmd$
 ^app\.R$
 ^rsconnect$
+=======
+^LICENSE\.md$
+^README\.Rmd$
+^doc$
+^Meta$
+>>>>>>> ec0d92749ba8718ba0c40f5f73734360ec1acb66
